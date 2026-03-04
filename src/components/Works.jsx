@@ -63,7 +63,7 @@ const Works = () => {
         </motion.div>
       <motion.div variants={fadeIn("", "", 0.1, 1)}>
         <h2 className="mt-4 text-secondary text-center text-[26px] max-w-3xl leading-[30px] text-balance">
-            These are some of the projects I have worked on throughout college. <span className='font-bold'>Click on the Github icon to see the app or source code.</span>
+            These are some of the projects I have worked on. <span className='font-bold'>Click on the Github icon to see the app or source code.</span>
         </h2>
       </motion.div>
       <div

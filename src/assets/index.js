@@ -42,6 +42,7 @@ import marketanalysis from "./market_analysis.jpg";
 import map from "./map.png";
 import cslovers from "./cslovers.png";
 import spacegame from "./spacegame.png";
+import portfolio_optimization_ml from "./portfolio_optimization_ml.png";
 import trunks_details from "./trunks_details.png";
 import trunk_details from "./trunk_details.jpg";
 import linkedin from "./linkedin.png";
@@ -88,6 +89,7 @@ export {
   map,
   cslovers,
   spacegame,
+  portfolio_optimization_ml,
   trunks_details,
   trunk_details,
   linkedin

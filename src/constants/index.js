@@ -34,7 +34,8 @@ import {
     marketanalysis,
     map,
     cslovers,
-    spacegame
+    spacegame,
+    portfolio_optimization_ml
   } from "../assets";
   
   export const navLinks = [
@@ -338,6 +339,27 @@ import {
       image: spacegame,
       source_code_link: "https://github.com/naramirezj/SpaceShootingGame",
     },
+    {
+      name: "Neural Network Portfolio Optimization",
+      description:
+        "Prediction of future returns by portfolio assets over a period of three years. Subsequently, compared if a weighted portfolio based on volatility minimization through Mean-Variance optimization has a lesser predicted risk than a non-weighted portfolio.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Neural Network Architecture",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: portfolio_optimization_ml,
+      source_code_link: "https://github.com/sford6023/ML-Final-Project/blob/main/Portfolio_Optimization_Diversified_Final.ipynb",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };
