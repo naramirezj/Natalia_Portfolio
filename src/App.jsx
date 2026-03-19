@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import { Element } from "react-scroll";
-import { Skills, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from './components';
+import { Skills, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, NataliaAgent } from './components';
 
 const App = () => {
   return (
@@ -24,6 +24,11 @@ const App = () => {
           <Experience />
         </Element>
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+         <Element name="nataliaAgent">
+          <NataliaAgent />
+        </Element>
+        </div>
+        <div className="contact">
           <Element name="contact">
             <Contact />
           </Element>

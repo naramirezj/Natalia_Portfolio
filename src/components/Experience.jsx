@@ -7,7 +7,7 @@ import { Tilt } from 'react-tilt';
 
 const Experience = () => {
   return (
-    <div className='flex flex-col justify-center items-center mt-10 pt-10'>
+    <div className='flex flex-col justify-center items-center py-16 mt-10 pt-10'>
       <motion.div variants={textVariant()}>
         <h1 className={`${styles.sectionHeadText} text-white`}>
           Work Experience
@@ -29,7 +29,7 @@ const Experience = () => {
           <div className="bg-tertiary p-5 rounded-2xl flex sm:flex-row flex-col justify-center items-center sm:w-[1200px] w-full mt-10"> {/* Increased width */}
             <div className='flex-1 flex flex-col justify-center items-start sm:w-1/2'>
               <p className="text-secondary text-[18px] leading-[30px] text-left">
-                These essential trunk features were previously available only through robust API calls. There was a need for extracting trunk details and displaying them in a simple, easy-to-access webpage. The project utilizes Java Spring Boot to build endpoints that will receive API responses, and the Ember.js framework along with HTML and CSS to display the stored information.
+                Essential trunk features were previously available only through robust API calls. There was a need for extracting trunk details and displaying them in a simple, easy-to-access webpage. The project utilizes Java Spring Boot to build endpoints that will receive API responses, and the Ember.js framework along with HTML and CSS to display the stored information.
               </p>
             </div>
             <div className='flex-1 flex justify-center items-center sm:w-1/2'>
