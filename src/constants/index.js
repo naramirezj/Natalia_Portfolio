@@ -23,7 +23,6 @@ import {
     kotlin,
     python,
     r,
-    maven,
     marketanalysis,
     map,
     cslovers,
@@ -106,9 +105,9 @@ import {
       description: "Data Cleaning and Visualizations Design"
     },
     {
-      title: "Maven",
-      icon: maven,
-      description: "Running configurations and dependency installation"
+      title: "TypeScript",
+      icon: typescript,
+      description: "Backend development, used to create NataliaAI"
     }
 
 

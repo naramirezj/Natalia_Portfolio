@@ -46,6 +46,7 @@ import portfolio_optimization_ml from "./portfolio_optimization_ml.png";
 import trunks_details from "./trunks_details.png";
 import trunk_details from "./trunk_details.jpg";
 import linkedin from "./linkedin.png";
+import globaldb from "./globalddb.png";
 
 export {
   logo,
@@ -92,5 +93,6 @@ export {
   portfolio_optimization_ml,
   trunks_details,
   trunk_details,
-  linkedin
+  linkedin,
+  globaldb
 };

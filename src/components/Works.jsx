@@ -25,7 +25,7 @@ const ProjectCard = ({
     >
       <Tilt
         options={{ max: 12, scale: 1, speed: 450 }}
-        className="bg-tertiary p-4 rounded-2xl w-full max-w-[600px]"
+        className="bg-tertiary p-5 sm:p-6 rounded-2xl w-full max-w-[720px]"
       >
         <div className="flex flex-col lg:flex-row gap-4 items-start h-full">
           {/* Left side: text */}
