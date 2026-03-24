@@ -20,7 +20,7 @@ export function loadKnowledgeBase() {
     experience: readFileSafe("experience.md"),
     projects: readFileSafe("projects.md"),
     skills: readFileSafe("skills.md"),
-    faq: readFileSafe("faq.md"),
+    faq: readFileSafe("faqs.md"),
     personality: readFileSafe("personality.md"),
     conversation_style: readFileSafe("conversation_style.md"),
   };

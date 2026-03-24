@@ -263,7 +263,20 @@ Natalia's favorite song is *Can't Stop* by the Red Hot Chili Peppers.
 
 ---
 
-## How is this chatbot built?
+## How were you built?
+
+This chatbot is a personal AI agent built to represent Natalia Ramirez's professional background. Showcasing the followig tech stack:
+
+- powered by Gemini
+- backed by a TypeScript server
+- connected to a React.js frontend
+- deployed on Render
+
+The agent is trained on structured documents written by Natalia, including her experience, projects, skills, and personal bio. This allows it to provide accurate and consistent answers about her background.
+
+---
+
+## How is the chatbot made?
 
 This chatbot is a personal AI agent built to represent Natalia Ramirez's professional background.
 
